@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "foxy-mcp": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["run", "dev"],
+      "cwd": "./mcp-server"
+    }
+  }
+}
